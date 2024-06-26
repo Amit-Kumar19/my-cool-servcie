@@ -80,7 +80,7 @@ To test the POST /api/users endpoint, run:
 curl -X POST -H "Authorization: Bearer admin-token" -H "Content-Type: application/json" -d '{"name": "John Doe", "email": "john@example.com"}' $(minikube service flask-service --url)/api/users
 ```
 
-##Testing with Pytest
+## Testing with Pytest
 To run the unit tests using Pytest, execute the following command:
 ```shell
 python -m unittest discover tests
